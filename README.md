@@ -28,7 +28,7 @@ L'API **Expenses API** est une application .NET Core permettant de gérer les d�
 #### Clonez le dépôt :
 
 ```sh
-git clone <https://github.com/LuccaTest/back-NicolasDreyfus.git>
+git clone <URL>
 cd ExpensesAPI
 ```
 

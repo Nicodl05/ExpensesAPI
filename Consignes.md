@@ -1,4 +1,4 @@
-# Lucca: Backend developer technical test
+# Backend developer technical test
 
 The test involves creating a .NET Web API application with a REST API to:
 - Create expenses
@@ -58,20 +58,7 @@ The users' table should be initialized with the following users:
 - Stark Anthony (with the currency being the U.S. dollar),
 - Romanova Natasha (with the currency being the Russian ruble).
 
-### Use of libraries
-Like any developer, we do not like to reinvent the wheel and appreciate using various libraries as needed.
 
-You are free to use any libraries that you find relevant.
-
-### Timelines and resources
-Upon receiving this technical test, send us an estimate of when you will deliver your completed test.
-
-It is estimated that it takes about 5 hours to complete this technical test.
-
-If in doubt, do not hesitate to ask questions by sending an email to test-technique@luccasoftware.com
-
-## Evaluation criteria
-The evaluation will be based on several criteria and also the level of requirement for the position you are applying for.
 
 ### Quality criteria
 - The code must be clean, readable, extensible, well-structured, and easily maintainable.
@@ -87,8 +74,3 @@ The expense validation rules must be unit tested.
 - The application must be fast and responsive.
 - Loading times must be minimal.
 
-## Next Steps
-- Once you have pushed your code, please inform Marion or Florence by email that you have completed your test.
-- Your test will then be evaluated by the recruitment team, and you will receive a response within a week.
-- If you are selected, you will have the opportunity to meet your future team for an encounter and a technical interview (_Petit Oral_).
-- If you are not selected, we will call you and you will receive feedback from the review.
