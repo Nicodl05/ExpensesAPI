@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="237" visitedSequencePoints="202" numBranchPoints="32" visitedBranchPoints="29" sequenceCoverage="85.23" branchCoverage="90.62" maxCyclomaticComplexity="75" minCyclomaticComplexity="75" visitedClasses="16" numClasses="17" visitedMethods="49" numMethods="51" />
+  <Modules>
+    <Module hash="CC623F18-B052-44FD-AF09-D1AC47EC7EB6">
+      <ModulePath>ExpensesApi.dll</ModulePath>
+      <ModuleTime>2024-10-27T11:08:09</ModuleTime>
+      <ModuleName>ExpensesApi</ModuleName>
+      <Files>
+        <File uid="1" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Domain\ExpenseResponse.cs" />
+        <File uid="2" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\DuplicateUserException.cs" />
+        <File uid="3" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Program.cs" />
+        <File uid="4" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Services\ExpenseService.cs" />
+        <File uid="5" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Repositories\ExpenseRepository.cs" />
+        <File uid="6" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Repositories\UserRepository.cs" />
+        <File uid="7" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\DuplicateExpenseException.cs" />
+        <File uid="8" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\InvalidAmountException.cs" />
+        <File uid="9" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\InvalidCurrencyException.cs" />
+        <File uid="10" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\InvalidExpenseDateException.cs" />
+        <File uid="11" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\MissingCommentException.cs" />
+        <File uid="12" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\UnrecognizedCurrencyException.cs" />
+        <File uid="13" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Exceptions\UserNotFoundException.cs" />
+        <File uid="14" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Domain\Expense.cs" />
+        <File uid="15" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Domain\User.cs" />
+        <File uid="16" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Data\AppDbContext.cs" />
+        <File uid="17" fullPath="G:\Dev\testTechLucca\back-NicolasDreyfus\ExpensesApi\Controllers\ExpensesController.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>ExpenseResponse</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.DateTime ExpenseResponse::get_Date()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="34" uspid="5" ordinal="0" sl="5" sc="1" el="5" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="5" ec="1" el="5" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpenseResponse::get_Type()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="22" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="6" ec="1" el="6" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Decimal ExpenseResponse::get_Amount()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="28" uspid="7" ordinal="0" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="7" ec="1" el="7" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpenseResponse::get_Currency()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="22" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpenseResponse::get_Comment()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="22" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="9" ec="1" el="9" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpenseResponse::get_UserFullName()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="31" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="10" ec="1" el="10" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>DuplicateUserException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void DuplicateUserException::.ctor(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="3" ordinal="0" sl="3" sc="1" el="3" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="3" ec="1" el="3" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="24" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Program</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="24" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Program::&lt;Main&gt;$(System.String[])</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="8" ordinal="1" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="9" ordinal="2" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="11" ordinal="3" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="12" ordinal="4" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="13" ordinal="5" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="15" ordinal="6" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="16" ordinal="7" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="18" ordinal="8" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="20" ordinal="9" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="21" ordinal="10" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="22" ordinal="11" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="23" ordinal="12" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="24" ordinal="13" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="25" ordinal="14" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="27" ordinal="15" sl="27" sc="1" el="27" ec="2" bec="2" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="28" ordinal="16" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="29" ordinal="17" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="30" ordinal="18" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="31" ordinal="19" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="33" ordinal="20" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="34" ordinal="21" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="35" ordinal="22" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="36" ordinal="23" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="27" ordinal="0" path="0" offset="217" offsetend="219" sl="27" fileid="3" />
+                <BranchPoint vc="0" uspid="27" ordinal="1" path="1" offset="217" offsetend="237" sl="27" fileid="3" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="36" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="45" visitedSequencePoints="44" numBranchPoints="12" visitedBranchPoints="11" sequenceCoverage="97.77" branchCoverage="91.66" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>ExpensesAPI.Services.ExpenseService</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="20" visitedSequencePoints="20" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Services.ExpenseService::AddExpense(ExpensesAPI.Domain.Expense)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="22" ordinal="2" sl="22" sc="1" el="22" ec="2" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="3" uspid="23" ordinal="3" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="24" ordinal="4" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="25" ordinal="5" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="26" ordinal="6" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="27" ordinal="7" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="28" ordinal="8" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="29" ordinal="9" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="30" ordinal="10" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="31" ordinal="11" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="32" ordinal="12" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="33" ordinal="13" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="34" ordinal="14" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="35" ordinal="15" sl="35" sc="1" el="35" ec="2" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="1" uspid="36" ordinal="16" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="37" ordinal="17" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="39" ordinal="18" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="40" ordinal="19" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="3" uspid="22" ordinal="0" path="0" offset="52" offsetend="54" sl="22" fileid="4" />
+                <BranchPoint vc="3" uspid="22" ordinal="1" path="1" offset="52" offsetend="131" sl="22" fileid="4" />
+                <BranchPoint vc="1" uspid="35" ordinal="2" path="0" offset="166" offsetend="168" sl="35" fileid="4" />
+                <BranchPoint vc="2" uspid="35" ordinal="3" path="1" offset="166" offsetend="187" sl="35" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="20" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="19" ec="1" el="40" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="8" nPathComplexity="8" sequenceCoverage="95" branchCoverage="87.5" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="20" visitedSequencePoints="19" numBranchPoints="8" visitedBranchPoints="7" sequenceCoverage="95" branchCoverage="87.5" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ExpenseResponse&gt; ExpensesAPI.Services.ExpenseService::GetExpensesByUser(System.Guid,System.String,System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="43" ordinal="0" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="44" ordinal="1" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="45" ordinal="2" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="47" ordinal="3" sl="47" sc="1" el="47" ec="2" bec="2" bev="1" fileid="4" />
+                <SequencePoint vc="0" uspid="48" ordinal="4" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="50" ordinal="5" sl="50" sc="1" el="50" ec="2" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="6" uspid="51" ordinal="6" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="52" ordinal="7" sl="52" sc="1" el="52" ec="2" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="12" uspid="53" ordinal="8" sl="53" sc="1" el="53" ec="2" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="6" uspid="54" ordinal="9" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="56" ordinal="10" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="57" ordinal="11" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="58" ordinal="12" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="59" ordinal="13" sl="59" sc="1" el="59" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="60" ordinal="14" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="61" ordinal="15" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="62" ordinal="16" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="63" ordinal="17" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="18" uspid="64" ordinal="18" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="6" uspid="65" ordinal="19" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="47" ordinal="0" path="0" offset="49" offsetend="51" sl="47" fileid="4" />
+                <BranchPoint vc="6" uspid="47" ordinal="1" path="1" offset="49" offsetend="58" sl="47" fileid="4" />
+                <BranchPoint vc="2" uspid="50" ordinal="3" path="1" offset="82" offsetend="86" sl="50" fileid="4" />
+                <BranchPoint vc="1" uspid="52" ordinal="4" path="0" offset="102" offsetend="104" sl="52" fileid="4" />
+                <BranchPoint vc="1" uspid="52" ordinal="5" path="1" offset="102" offsetend="143" sl="52" fileid="4" />
+                <BranchPoint vc="4" uspid="50" ordinal="2" path="0" offset="82" offsetend="184" sl="50" fileid="4" />
+                <BranchPoint vc="2" uspid="53" ordinal="6" path="0" offset="200" offsetend="202" sl="53" fileid="4" />
+                <BranchPoint vc="2" uspid="53" ordinal="7" path="1" offset="200" offsetend="241" sl="53" fileid="4" />
+              </BranchPoints>
+              <MethodPoint vc="19" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="43" ec="1" el="65" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Services.ExpenseService::.ctor(ExpensesAPI.Repositories.IExpenseRepository,ExpensesAPI.Repositories.IUserRepository)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="12" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="12" uspid="13" ordinal="1" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="12" uspid="14" ordinal="2" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="12" uspid="15" ordinal="3" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="12" uspid="16" ordinal="4" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="12" ec="1" el="16" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="21" visitedSequencePoints="21" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>ExpensesAPI.Repositories.ExpenseRepository</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Repositories.ExpenseRepository::AddExpense(ExpensesAPI.Domain.Expense)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="18" ordinal="1" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="19" ordinal="2" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="20" ordinal="3" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="20" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.IEnumerable`1&lt;ExpensesAPI.Domain.Expense&gt; ExpensesAPI.Repositories.ExpenseRepository::GetExpensesByUser(System.Guid)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="23" ordinal="0" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="24" ordinal="1" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="25" ordinal="2" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="26" ordinal="3" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="27" ordinal="4" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="28" ordinal="5" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="23" ec="1" el="28" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean ExpensesAPI.Repositories.ExpenseRepository::CheckDuplicate(ExpensesAPI.Domain.Expense)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="30" ordinal="0" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="31" ordinal="1" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="32" ordinal="2" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="33" ordinal="3" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="34" ordinal="4" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="35" ordinal="5" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="36" ordinal="6" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="30" ec="1" el="36" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Repositories.ExpenseRepository::.ctor(ExpensesAPI.Data.AppDbContext)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="5" uspid="12" ordinal="1" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="5" uspid="13" ordinal="2" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="5" uspid="14" ordinal="3" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="11" ec="1" el="14" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>ExpensesAPI.Repositories.UserRepository</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ExpensesAPI.Domain.User ExpensesAPI.Repositories.UserRepository::GetUserByDetails(System.String,System.String,ExpensesAPI.Domain.Currency)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="24" ordinal="0" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="25" ordinal="1" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="26" ordinal="2" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="24" ec="1" el="26" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ExpensesAPI.Domain.User ExpensesAPI.Repositories.UserRepository::GetUserById(System.Guid)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="28" ordinal="0" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="28" ec="1" el="30" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Repositories.UserRepository::AddUser(ExpensesAPI.Domain.User)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="32" ordinal="0" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="33" ordinal="1" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="34" ordinal="2" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="36" ordinal="3" sl="36" sc="1" el="36" ec="2" bec="2" bev="2" fileid="6" />
+                <SequencePoint vc="1" uspid="37" ordinal="4" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="38" ordinal="5" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="41" ordinal="6" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="42" ordinal="7" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="2" uspid="43" ordinal="8" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="36" ordinal="0" path="0" offset="344" offsetend="346" sl="36" fileid="6" />
+                <BranchPoint vc="2" uspid="36" ordinal="1" path="1" offset="344" offsetend="390" sl="36" fileid="6" />
+              </BranchPoints>
+              <MethodPoint vc="9" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="32" ec="1" el="43" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Repositories.UserRepository::.ctor(ExpensesAPI.Data.AppDbContext)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="6" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="6" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="6" uspid="22" ordinal="3" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="19" ec="1" el="22" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ExpensesAPI.Exceptions.DuplicateExpenseException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Exceptions.DuplicateExpenseException::.ctor(System.DateTime,System.Decimal)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="6" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ExpensesAPI.Exceptions.InvalidAmountException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Exceptions.InvalidAmountException::.ctor(System.Decimal)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="3" uspid="7" ordinal="1" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="3" uspid="8" ordinal="2" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="8" bec="0" bev="0" fileid="8" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ExpensesAPI.Exceptions.InvalidCurrencyException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Exceptions.InvalidCurrencyException::.ctor(ExpensesAPI.Domain.Currency,ExpensesAPI.Domain.Currency)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="9" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ExpensesAPI.Exceptions.InvalidExpenseDateException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Exceptions.InvalidExpenseDateException::.ctor(System.DateTime,System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="2" bev="2" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="6" ordinal="0" path="0" offset="3" offsetend="5" sl="6" fileid="10" />
+                <BranchPoint vc="3" uspid="6" ordinal="1" path="1" offset="3" offsetend="28" sl="6" fileid="10" />
+              </BranchPoints>
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="6" bec="0" bev="0" fileid="10" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ExpensesAPI.Exceptions.MissingCommentException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Exceptions.MissingCommentException::.ctor()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="6" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ExpensesAPI.Exceptions.UnrecognizedCurrencyException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Exceptions.UnrecognizedCurrencyException::.ctor(ExpensesAPI.Domain.Currency)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="12" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ExpensesAPI.Exceptions.UserNotFoundException</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Exceptions.UserNotFoundException::.ctor(System.Guid)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="6" ordinal="0" sl="6" sc="1" el="6" ec="2" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="6" ec="1" el="6" bec="0" bev="0" fileid="13" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="36" visitedSequencePoints="35" numBranchPoints="10" visitedBranchPoints="10" sequenceCoverage="97.22" branchCoverage="100" maxCyclomaticComplexity="10" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="10" numMethods="11" />
+          <FullName>ExpensesAPI.Domain.Expense</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 ExpensesAPI.Domain.Expense::get_Id()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="7" ordinal="0" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="7" ec="1" el="7" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.DateTime ExpensesAPI.Domain.Expense::get_Date()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="58" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ExpensesAPI.Domain.ExpenseType ExpensesAPI.Domain.Expense::get_Type()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="45" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="9" ec="1" el="9" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Decimal ExpensesAPI.Domain.Expense::get_Amount()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="54" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="10" ec="1" el="10" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ExpensesAPI.Domain.Currency ExpensesAPI.Domain.Expense::get_Currency()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="44" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="11" ec="1" el="11" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpensesAPI.Domain.Expense::get_Comment()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="44" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Guid ExpensesAPI.Domain.Expense::get_UserId()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="13" ec="1" el="13" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ExpensesAPI.Domain.User ExpensesAPI.Domain.Expense::get_User()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="51" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="14" ec="1" el="14" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="10" nPathComplexity="10" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="10" visitedBranchPoints="10" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="10" minCyclomaticComplexity="10" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Domain.Expense::ValidateExpense(System.DateTime,System.Decimal,ExpensesAPI.Domain.Currency,System.String,ExpensesAPI.Domain.User)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="41" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="41" uspid="28" ordinal="1" sl="28" sc="1" el="28" ec="2" bec="2" bev="2" fileid="14" />
+                <SequencePoint vc="3" uspid="29" ordinal="2" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="3" uspid="30" ordinal="3" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="38" uspid="32" ordinal="4" sl="32" sc="1" el="32" ec="2" bec="2" bev="2" fileid="14" />
+                <SequencePoint vc="2" uspid="33" ordinal="5" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="2" uspid="34" ordinal="6" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="36" uspid="36" ordinal="7" sl="36" sc="1" el="36" ec="2" bec="2" bev="2" fileid="14" />
+                <SequencePoint vc="1" uspid="37" ordinal="8" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="38" ordinal="9" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="35" uspid="40" ordinal="10" sl="40" sc="1" el="40" ec="2" bec="2" bev="2" fileid="14" />
+                <SequencePoint vc="3" uspid="41" ordinal="11" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="3" uspid="42" ordinal="12" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="32" uspid="44" ordinal="13" sl="44" sc="1" el="44" ec="2" bec="2" bev="2" fileid="14" />
+                <SequencePoint vc="3" uspid="45" ordinal="14" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="3" uspid="46" ordinal="15" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="48" ordinal="16" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="3" uspid="28" ordinal="0" path="0" offset="14" offsetend="16" sl="28" fileid="14" />
+                <BranchPoint vc="38" uspid="28" ordinal="1" path="1" offset="14" offsetend="24" sl="28" fileid="14" />
+                <BranchPoint vc="2" uspid="32" ordinal="2" path="0" offset="37" offsetend="39" sl="32" fileid="14" />
+                <BranchPoint vc="36" uspid="32" ordinal="3" path="1" offset="37" offsetend="48" sl="32" fileid="14" />
+                <BranchPoint vc="1" uspid="36" ordinal="4" path="0" offset="71" offsetend="73" sl="36" fileid="14" />
+                <BranchPoint vc="35" uspid="36" ordinal="5" path="1" offset="71" offsetend="86" sl="36" fileid="14" />
+                <BranchPoint vc="3" uspid="40" ordinal="6" path="0" offset="96" offsetend="98" sl="40" fileid="14" />
+                <BranchPoint vc="32" uspid="40" ordinal="7" path="1" offset="96" offsetend="105" sl="40" fileid="14" />
+                <BranchPoint vc="3" uspid="44" ordinal="8" path="0" offset="122" offsetend="124" sl="44" fileid="14" />
+                <BranchPoint vc="29" uspid="44" ordinal="9" path="1" offset="122" offsetend="139" sl="44" fileid="14" />
+              </BranchPoints>
+              <MethodPoint vc="17" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="27" ec="1" el="48" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Domain.Expense::.ctor()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="15" ordinal="0" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="15" ec="1" el="15" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Domain.Expense::.ctor(System.DateTime,ExpensesAPI.Domain.ExpenseType,System.Decimal,ExpensesAPI.Domain.Currency,System.String,ExpensesAPI.Domain.User)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="41" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="41" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="41" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="20" ordinal="4" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="21" ordinal="5" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="22" ordinal="6" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="23" ordinal="7" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="24" ordinal="8" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="29" uspid="25" ordinal="9" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="10" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="16" ec="1" el="25" bec="0" bev="0" fileid="14" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="14" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="7" />
+          <FullName>ExpensesAPI.Domain.User</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Guid ExpensesAPI.Domain.User::get_Id()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="60" uspid="7" ordinal="0" sl="7" sc="1" el="7" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="7" ec="1" el="7" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpensesAPI.Domain.User::get_FirstName()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="79" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpensesAPI.Domain.User::get_LastName()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="79" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="9" ec="1" el="9" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>ExpensesAPI.Domain.Currency ExpensesAPI.Domain.User::get_Currency()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="103" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="10" ec="1" el="10" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String ExpensesAPI.Domain.User::get_FullName()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean ExpensesAPI.Domain.User::CheckCurrency(ExpensesAPI.Domain.Currency)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="3" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="2" bev="2" fileid="15" />
+                <SequencePoint vc="1" uspid="20" ordinal="2" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="1" uspid="21" ordinal="3" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="2" uspid="24" ordinal="4" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="2" uspid="25" ordinal="5" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="19" ordinal="0" path="0" offset="27" offsetend="29" sl="19" fileid="15" />
+                <BranchPoint vc="2" uspid="19" ordinal="1" path="1" offset="27" offsetend="37" sl="19" fileid="15" />
+              </BranchPoints>
+              <MethodPoint vc="6" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="18" ec="1" el="25" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Domain.User::.ctor()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="51" uspid="13" ordinal="0" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="51" uspid="14" ordinal="1" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="51" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="13" ec="1" el="16" bec="0" bev="0" fileid="15" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>ExpensesAPI.Data.AppDbContext</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.EntityFrameworkCore.DbSet`1&lt;ExpensesAPI.Domain.User&gt; ExpensesAPI.Data.AppDbContext::get_Users()</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="27" uspid="8" ordinal="0" sl="8" sc="1" el="8" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="8" ec="1" el="8" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.EntityFrameworkCore.DbSet`1&lt;ExpensesAPI.Domain.Expense&gt; ExpensesAPI.Data.AppDbContext::get_Expenses()</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="24" uspid="9" ordinal="0" sl="9" sc="1" el="9" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="9" ec="1" el="9" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Data.AppDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="16" ordinal="1" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="20" ordinal="4" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="22" ordinal="5" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="23" ordinal="6" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="24" ordinal="7" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="25" ordinal="8" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="26" ordinal="9" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="29" ordinal="10" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="30" ordinal="11" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="31" ordinal="12" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="32" ordinal="13" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="16" />
+                <SequencePoint vc="1" uspid="33" ordinal="14" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="15" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="14" ec="1" el="33" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Data.AppDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;ExpensesAPI.Data.AppDbContext&gt;)</Name>
+              <FileRef uid="16" />
+              <SequencePoints>
+                <SequencePoint vc="33" uspid="11" ordinal="0" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="11" ec="1" el="11" bec="0" bev="0" fileid="16" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="44" visitedSequencePoints="35" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="79.54" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>ExpensesAPI.Controllers.ExpensesController</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="60.86" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="23" visitedSequencePoints="14" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="60.86" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.ActionResult`1&lt;ExpensesAPI.Domain.Expense&gt; ExpensesAPI.Controllers.ExpensesController::CreateExpense(ExpensesAPI.Domain.Expense)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="21" ordinal="0" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="5" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="5" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="2" uspid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="27" ordinal="4" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="28" ordinal="5" sl="28" sc="1" el="28" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="29" ordinal="6" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="31" ordinal="7" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="32" ordinal="8" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="33" ordinal="9" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="35" ordinal="10" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="36" ordinal="11" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="37" ordinal="12" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="39" ordinal="13" sl="39" sc="1" el="39" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="40" ordinal="14" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="41" ordinal="15" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="43" ordinal="16" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="44" ordinal="17" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="0" uspid="45" ordinal="18" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="47" ordinal="19" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="48" ordinal="20" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="49" ordinal="21" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="5" uspid="51" ordinal="22" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="14" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="21" ec="1" el="51" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>Microsoft.AspNetCore.Mvc.ActionResult`1&lt;System.Collections.Generic.IEnumerable`1&lt;ExpenseResponse&gt;&gt; ExpensesAPI.Controllers.ExpensesController::GetExpenses(System.Guid,System.String,System.String)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="10" uspid="55" ordinal="0" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="10" uspid="57" ordinal="1" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="10" uspid="58" ordinal="2" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="6" uspid="59" ordinal="3" sl="59" sc="1" el="59" ec="2" bec="2" bev="2" fileid="17" />
+                <SequencePoint vc="2" uspid="60" ordinal="4" sl="60" sc="1" el="60" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="2" uspid="61" ordinal="5" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="4" uspid="63" ordinal="6" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="2" uspid="65" ordinal="7" sl="65" sc="1" el="65" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="2" uspid="66" ordinal="8" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="2" uspid="67" ordinal="9" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="69" ordinal="10" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="70" ordinal="11" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="71" ordinal="12" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="73" ordinal="13" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="74" ordinal="14" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="1" uspid="75" ordinal="15" sl="75" sc="1" el="75" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="10" uspid="77" ordinal="16" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="59" ordinal="0" path="0" offset="28" offsetend="30" sl="59" fileid="17" />
+                <BranchPoint vc="4" uspid="59" ordinal="1" path="1" offset="28" offsetend="96" sl="59" fileid="17" />
+              </BranchPoints>
+              <MethodPoint vc="17" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="55" ec="1" el="77" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void ExpensesAPI.Controllers.ExpensesController::.ctor(IExpenseService)</Name>
+              <FileRef uid="17" />
+              <SequencePoints>
+                <SequencePoint vc="19" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="19" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="19" uspid="16" ordinal="2" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="17" />
+                <SequencePoint vc="19" uspid="17" ordinal="3" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="17" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="14" ec="1" el="17" bec="0" bev="0" fileid="17" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
